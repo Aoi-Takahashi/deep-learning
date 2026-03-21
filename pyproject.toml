@@ -15,6 +15,9 @@ dev = [
     "ruff>=0.15.7",
 ]
 
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
 [tool.ruff]
 line-length = 88
 

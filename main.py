@@ -1,5 +1,8 @@
+from model.perceptron import AND
+
+
 def main():
-    print("Hello from deep-learning!")
+    print(AND(1, 0.8))
 
 
 if __name__ == "__main__":
