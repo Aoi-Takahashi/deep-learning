@@ -1,8 +1,15 @@
-from model.perceptron import AND
+import numpy as np
+from matplotlib import pyplot as plt
+
+from model.activation import step_function
 
 
 def main():
-    print(AND(1, 0.8))
+    x = np.arange(-5.0, 5.0, 0.1)
+    y = step_function(x)
+    plt.plot(x, y)
+    plt.ylim(-0.1, 1.1)  # y軸の範囲を指定
+    plt.savefig("figure/Step関数.png")
 
 
 if __name__ == "__main__":
