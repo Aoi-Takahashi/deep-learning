@@ -1,7 +1,7 @@
-from model.perceptron import AND, NAND, OR, XOR
-
-
 # (x1,x2)=(0,0)
+from ch02.perceptron import AND, NAND, OR, XOR
+
+
 def test_AND1():
     assert AND(0, 0) == 0
 

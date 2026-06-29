@@ -1,5 +1,4 @@
 import numpy as np
-
 from model.activation import sigmoid
 from model.identity import identity_function
 
