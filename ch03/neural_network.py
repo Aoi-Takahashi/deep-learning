@@ -1,6 +1,6 @@
 import numpy as np
-from model.activation import sigmoid
-from model.identity import identity_function
+
+from common.functions import identity_function, sigmoid
 
 
 def init_network():
