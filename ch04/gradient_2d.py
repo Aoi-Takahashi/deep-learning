@@ -67,4 +67,3 @@ if __name__ == "__main__":
     plt.grid()
     plt.draw()
     plt.show()
-    plt.savefig("../figure/f(x0,x1)=x0^2+x1^2の勾配.png")
