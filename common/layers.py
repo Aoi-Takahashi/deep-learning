@@ -1,7 +1,7 @@
 # coding: utf-8
 import numpy as np
 
-from common.functions import *
+from common.functions import cross_entropy_error, sigmoid, softmax
 from common.util import col2im, im2col
 
 
